@@ -11,9 +11,6 @@ public class LinearSearchEx {
         else {
             System.out.println("Element not found");
         }
-
-
-
     }
 
     static int Search(int[] arr, int key) {
@@ -22,12 +19,10 @@ public class LinearSearchEx {
         }
         for (int i = 0; i < arr.length; i++) {
 
-
             int element = arr[i];
             if (element == key) {
                 return i;
             }
-
         }
         return -1;
     }
