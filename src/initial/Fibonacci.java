@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Fibonacci {
     public static void main(String[] args) {
         Scanner s= new Scanner(System.in);
+
+        System.out.println("Enter which no. of the series you want to know: ");
         int n=s.nextInt();
         int a,b;
         a=0; b=1;
