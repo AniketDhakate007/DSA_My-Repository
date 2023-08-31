@@ -23,6 +23,6 @@ public class LinearSearchEx {
                 return i;
             }
         }
-        return -1;
+        return -1;// -1 means number not found
     }
 }
