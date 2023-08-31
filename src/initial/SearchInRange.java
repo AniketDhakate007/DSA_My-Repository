@@ -22,6 +22,6 @@ public class SearchInRange {
                 return index;
             }
         }
-    return -1;//here -1 means target DNE in the araray within specified range
+    return -1;//here -1 means target DNE in the array within specified range
     }
 }
