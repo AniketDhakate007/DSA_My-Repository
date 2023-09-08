@@ -4,8 +4,17 @@ import java.util.Scanner;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        Scanner s= new Scanner(System.in);
 
+        System.out.println(fibo(8));
+    }
+    static int fibo(int n){             //using recursion
+
+        if (n < 2) {
+            return n;
+        }
+        return fibo(n-1)+fibo(n-2);
+    }
+/*
         System.out.println("Enter which no. of the series you want to know: ");
         int n=s.nextInt();
         int a,b;
@@ -20,5 +29,6 @@ public class Fibonacci {
 
         }
         System.out.println(b);
-    }
+ */
+
 }
