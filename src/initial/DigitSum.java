@@ -8,6 +8,6 @@ public class DigitSum {
         if (n <= 9 && n>=0) {
             return n;
         }
-        return digitsum(n/10)+digitsum(n%10);
+        return (n/10)+digitsum(n%10);
     }
 }
