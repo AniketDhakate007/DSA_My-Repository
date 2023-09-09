@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class Fibonacci {
     public static void main(String[] args) {
+Scanner s=new Scanner(System.in);
 
-        System.out.println(fibo(8));
+        System.out.println("Enter the index number: ");
+        int n=s.nextInt();
+        System.out.println(fibo(n));
     }
     static int fibo(int n){             //using recursion
 
