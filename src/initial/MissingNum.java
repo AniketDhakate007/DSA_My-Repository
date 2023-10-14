@@ -10,9 +10,9 @@ public class MissingNum {
 
         int i=0;
         while (i<arr.length){
-            int check=arr[i];
-            if (arr[i]< arr.length && arr[i] !=arr[check]){
-                swap(arr,i,check);
+//            int check=arr[i];
+            if (arr[i]< arr.length && arr[i] !=i){
+                swap(arr,i,arr[i]);
             }
             else {
                 i++;
