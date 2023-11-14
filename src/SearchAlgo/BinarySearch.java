@@ -1,5 +1,5 @@
-package initial;
-import java.io.OptionalDataException;
+package SearchAlgo;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

@@ -1,10 +1,10 @@
-package initial;
+package SortAlgo;
 
 import java.util.Arrays;
 
 public class InsertionSort {
     public static void main(String[] args) {
-        int[] arr={1,4,2,6,3};
+        int[] arr={-12,11,-13,-5,6,-7,5,-3,-6};
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }

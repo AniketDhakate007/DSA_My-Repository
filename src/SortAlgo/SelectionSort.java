@@ -1,4 +1,4 @@
-package initial;
+package SortAlgo;
 
 import java.util.Arrays;
 
@@ -7,8 +7,8 @@ public class SelectionSort {
         int[] arr={1,4,2,6,3};
         sort(arr);
         System.out.println(Arrays.toString(arr));
-        }
-        static void sort(int[] arr){
+    }
+    static void sort(int[] arr){
         for (int i=0; i<arr.length; i++){
             int finalIndex=arr.length-i-1;
             int max=maxIndex(arr,0,finalIndex);
@@ -27,7 +27,7 @@ public class SelectionSort {
                 max=i;
             }
         }
-    return max;
+        return max;
     }
     static void swap(int[] arr,int max,int finalIndex){
         int temp=arr[max];

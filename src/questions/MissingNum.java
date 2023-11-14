@@ -1,4 +1,4 @@
-package initial;
+package questions;
 
 public class MissingNum {
     public static void main(String[] args) {

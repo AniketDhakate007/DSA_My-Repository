@@ -1,4 +1,4 @@
-package initial;
+package questions;
 
 public class DigitSum {
     public static void main(String[] args) {

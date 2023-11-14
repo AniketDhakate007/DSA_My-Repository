@@ -1,9 +1,9 @@
-package initial;
+package SearchAlgo;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class LinearSearchEx {
+public class LinearSearch {
 //    public static void main(String[] args) {
 //        int arr[] = {12, 22, 43, 5, 13, 23};
 //        Scanner s=new Scanner(System.in);
