@@ -1,6 +1,5 @@
 package OOP;
 
-import java.awt.*;
 //INHERITANCE
 public class Vehicle {
     String name;
@@ -12,40 +11,29 @@ public class Vehicle {
     }
 
 }
+class Car extends Vehicle {
+    Car(String name,int weight,String engine, int hp){
+        this.name =name;
+        this.EngineType=engine;
+        this.weight=weight;
+        this.hp=hp;
+    }
+}
+
 class Bike extends Vehicle{
-    public static void main(String[] args) {
-        Bike REHimalyan=new Bike();
-        REHimalyan.name="ROYAl Enfield: Himalyan";
-        REHimalyan.weight=200;
-        REHimalyan.EngineType="Petrol";
-        REHimalyan.hp=25;
-
-        REHimalyan.DisplayInfo();
-//        .
-//        ,
-//        ,
-//        ,
-//
-//        new object bike n
+    Bike(String name,int weight,String engine, int hp){
+        this.name =name;
+        this.EngineType=engine;
+        this.weight=weight;
+        this.hp=hp;
     }
 }
-
-class Car extends Vehicle{
+class Test{
     public static void main(String[] args) {
-        Car BMWM5Comp;
-
-        BMWM5Comp = new Car();
-        BMWM5Comp.name="BMW M5 Competition";
-        BMWM5Comp.weight=2000;
-        BMWM5Comp.EngineType="petrol";
-        BMWM5Comp.hp=650;
-
-        BMWM5Comp.DisplayInfo();
-//        .
-//        .
-//        ..
-//        . n cars
+        Bike b1=new Bike("RE_GT650",250,"Petrol",56);
+        b1.DisplayInfo();
+        System.out.println();
+        Car c=new Car("BMW_M5_CS650",2000,"Petrol",750);
+        c.DisplayInfo();
     }
 }
-
-//similiarly trucks and busses etc,
