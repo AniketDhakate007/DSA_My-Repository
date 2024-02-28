@@ -7,7 +7,7 @@ public class GFG_day01feb {
     public static boolean checkPangram  (String s) {
         // your code here
        List<String> z=Arrays.asList("abcdef");
-       return .containsAll(z);
+     //
 
 //        for (int i = 0; i < str.length; i++) {
 //            if (s.contains(str[i])){
