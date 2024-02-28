@@ -1,4 +1,4 @@
-package questions;
+package Recursion_and_BackTracking;
 
 public class Check_sorted {
     public static void main(String[] args) {
