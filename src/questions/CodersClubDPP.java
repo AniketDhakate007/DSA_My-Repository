@@ -1,4 +1,4 @@
-package CodersClubDPP;
+package questions;
 
 class CodersClubDPP {
     public static void main(String[] args) {

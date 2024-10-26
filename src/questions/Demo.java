@@ -392,8 +392,11 @@ class Fibo{
             fibo1=fibo2;
             fibo2=fibo;
         }
+
     }
 }
+
+
 
 
 

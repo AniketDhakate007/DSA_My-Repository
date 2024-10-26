@@ -1,4 +1,4 @@
-package CodersClubDPP;
+package questions;
 
 import java.util.Scanner;
 

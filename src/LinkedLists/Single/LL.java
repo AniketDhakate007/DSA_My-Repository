@@ -1,6 +1,4 @@
-package LinkedLists;
-
-import java.util.List;
+package LinkedLists.Single;
 
 public class LL {
     private Node head;
@@ -8,12 +6,25 @@ public class LL {
     private int size;
 
     public LL(){
-        this.size = 0;
+        this.size = 0;   //constructor to assign size
+    }
+    private class Node{
+        private int value;
+        private Node next;                        //   creation of node
+
+        public Node(int value){
+            this.value=value;   
+        }
+
+        public Node(int value, Node next) {
+            this.value = value;
+            this.next = next;
+        }
     }
     public void insertFirst(int value){
         Node node = new Node(value);
         node.next = head;
-        head = node;
+        head = node;                                 //methods
 
         if (tail == null) {
             tail = head;
@@ -57,20 +68,6 @@ public class LL {
         temp.next = node;
 
         size++;
-    }
-
-    private class Node{
-        private int value;
-        private Node next;
-
-        public Node(int value){
-            this.value=value;
-        }
-
-        public Node(int value, Node next) {
-            this.value = value;
-            this.next = next;
-        }
     }
 
     public static void main(String[] args) {
